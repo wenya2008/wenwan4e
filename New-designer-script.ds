@@ -64,4 +64,8 @@
    <accessor type='JQuery' value='byJQuery(&apos;.tabLayout__content.search__content &gt; .searchCatalogResultList &gt; .searchCatalogResultListItem &gt; .searchCatalogResultListItem__content &gt; .searchCatalogResultListItem__title&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
+<step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/all-offerings/products/s/se302.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
 </testcase>
