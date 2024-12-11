@@ -51,4 +51,17 @@
    <accessor type='JQuery' value='byJQuery(&apos;.header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.headerSearch__inputWrapper &gt; .submitInput__applyButton.submitInput__applyButton--search&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='heading2(&quot;searchCatalogResultListItem__title&quot;)' fallback='true' selected='true'/>
+   <accessor type='unknown' value='heading2([&quot;Solid Edge Design and Drafting XaaS&quot;])' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//main[@id=&apos;main&apos;]/div[2]/div/div[2]/a/div[2]/h2&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;searchCatalogResultListItem__title&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Solid Edge Design and Drafting XaaS - Siemens Xcelerator Global&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/main/div[2]/div/div[2]/a/div[2]/h2&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;main&apos;)/div[@class=&apos;tabLayout search__contentWrapper&apos;]/div[@class=&apos;tabLayout__content search__content&apos;]/div[@class=&apos;searchCatalogResultList&apos;]/a[@class=&apos;searchCatalogResultListItem&apos;]/div[@class=&apos;searchCatalogResultListItem__content&apos;]/h2[@class=&apos;searchCatalogResultListItem__title&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;tabLayout__content search__content&quot;] &gt; div[class=&quot;searchCatalogResultList&quot;] &gt; a[class=&quot;searchCatalogResultListItem&quot;] &gt; div[class=&quot;searchCatalogResultListItem__content&quot;] &gt; h2[class=&quot;searchCatalogResultListItem__title&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.tabLayout__content.search__content &gt; .searchCatalogResultList &gt; .searchCatalogResultListItem &gt; .searchCatalogResultListItem__content &gt; .searchCatalogResultListItem__title&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
 </testcase>
