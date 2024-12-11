@@ -7,4 +7,48 @@
   <dialect type='sahi'>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Parent' value='submit(2, _in(div(&quot;uc-center-container&quot;)))' fallback='true' selected='true'/>
+   <accessor type='Parent' value='submit(2, _in(div({&apos;id&apos;:&apos;uc-center-container&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='submit(&quot;dGoUTU sc-dcJsrY[1]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='submit(&quot;Accept All Cookies&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='submit({&apos;data-testid&apos;:&apos;uc-accept-all-button&apos;})' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='div(&quot;headerSearch__inputWrapper submitInput submitInput--empty submitInput--small&quot;).xy(0.25, 0.55 )' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/header/div[2]/div[2]/div[1]/form/div[1]&quot;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;submitInput submitInput--small submitInput--empty headerSearch__inputWrapper&quot;]&apos;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/header/div[2]/div[2]/div/form/div&apos;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage app--componentBelowHeader&apos;]/div[@class=&apos;fluidPage__wrapper page__wrapper&apos;]/header[@class=&apos;header header--hasImageBackground scrollSection&apos;]/div[@class=&apos;header__topBar header__topBar--withLogin header__topBar--xcl&apos;]/div[@class=&apos;header__iconsWrapper&apos;]/div[@class=&apos;headerSearch&apos;]/form[@class=&apos;headerSearch__form&apos;]/div[@class=&apos;submitInput submitInput--small submitInput--empty headerSearch__inputWrapper&apos;]&quot;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='div({&apos;data-ste-element&apos;:&apos;Search&apos;}).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;header__topBar header__topBar--withLogin header__topBar--xcl&quot;] &gt; div[class=&quot;header__iconsWrapper&quot;] &gt; div[class=&quot;headerSearch&quot;] &gt; form[class=&quot;headerSearch__form&quot;] &gt; div[class=&quot;submitInput submitInput--small submitInput--empty headerSearch__inputWrapper&quot;]&apos;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.header__topBar.header__topBar--withLogin.header__topBar--xcl &gt; .header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.submitInput--empty.headerSearch__inputWrapper&apos;).xy(0.25, 0.55 )' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"se302"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='textbox(&quot;headerSearch__input submitInput__input&quot;)' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/header/div[2]/div[2]/div[1]/form/div[1]/input&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;headerSearch__input submitInput__input&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/header/div[2]/div[2]/div/form/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage app--componentBelowHeader&apos;]/div[@class=&apos;fluidPage__wrapper page__wrapper&apos;]/header[@class=&apos;header header--hasImageBackground scrollSection&apos;]/div[@class=&apos;header__topBar header__topBar--withLogin header__topBar--xcl&apos;]/div[@class=&apos;header__iconsWrapper&apos;]/div[@class=&apos;headerSearch&apos;]/form[@class=&apos;headerSearch__form&apos;]/div[@class=&apos;submitInput submitInput--small headerSearch__inputWrapper&apos;]/input[@class=&apos;headerSearch__input submitInput__input&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='textbox({&apos;size&apos;:&apos;6&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;header__iconsWrapper&quot;] &gt; div[class=&quot;headerSearch&quot;] &gt; form[class=&quot;headerSearch__form&quot;] &gt; div[class=&quot;submitInput submitInput--small headerSearch__inputWrapper&quot;] &gt; input[class=&quot;headerSearch__input submitInput__input&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.headerSearch__inputWrapper &gt; .headerSearch__input.submitInput__input&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='submit(&quot;submitInput__applyButton submitInput__applyButton--search&quot;)' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/header/div[2]/div[2]/div[1]/form/div[1]/button[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;submitInput__applyButton submitInput__applyButton--search&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/header/div[2]/div[2]/div/form/div/button[2]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage app--componentBelowHeader&apos;]/div[@class=&apos;fluidPage__wrapper page__wrapper&apos;]/header[@class=&apos;header header--hasImageBackground scrollSection&apos;]/div[@class=&apos;header__topBar header__topBar--withLogin header__topBar--xcl&apos;]/div[@class=&apos;header__iconsWrapper&apos;]/div[@class=&apos;headerSearch&apos;]/form[@class=&apos;headerSearch__form&apos;]/div[@class=&apos;submitInput submitInput--small headerSearch__inputWrapper&apos;]/button[@class=&apos;submitInput__applyButton submitInput__applyButton--search&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;header__iconsWrapper&quot;] &gt; div[class=&quot;headerSearch&quot;] &gt; form[class=&quot;headerSearch__form&quot;] &gt; div[class=&quot;submitInput submitInput--small headerSearch__inputWrapper&quot;] &gt; button[class=&quot;submitInput__applyButton submitInput__applyButton--search&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.headerSearch__inputWrapper &gt; .submitInput__applyButton.submitInput__applyButton--search&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
 </testcase>
