@@ -32,7 +32,7 @@
     <resource name="uat_env" type="folder" path="{scenario}/"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://training.appvance.net:8443/TMServer/ws/TestNode"/>
+    <node/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
