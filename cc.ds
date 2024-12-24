@@ -119,7 +119,7 @@
    <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
-<step action='selectFrame' value='src=&quot;https://secure.ixopay.com/iframes/pan.html&quot;' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+<step action='selectFrame' value='"https://secure.ixopay.com/iframes/pan.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
