@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase   name= 'null' description= 'null' author= 'null' version= 'null'>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<testcase   name= 'cc.ds' description= '' author= 'null' version= ''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
 <fallback useFallback='true'/>
 <shadowDOM useShadowDOM='true'/>
 <step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
+<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
@@ -96,6 +102,7 @@
 </step>
 <step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/payment.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
 <step action='setValue' value='"4111 1111 1111 1111"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
@@ -193,6 +200,7 @@
 </step>
 <step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/order-review.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
@@ -263,6 +271,7 @@
 </step>
 <step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/order-submission.html?id=1Os9V000000TWZBSA4"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
 </testcase>
