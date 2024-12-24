@@ -181,6 +181,11 @@
    <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
+<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='AttrClass' value='submit(&quot;button button--hero button--icon button--iconArrowRight button--iconRight paymentPage__checkoutButton paymentPage__checkoutButton&quot;)' fallback='true' selected='true'/>
