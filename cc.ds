@@ -30,14 +30,14 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;formSubmitButtonText&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#formSubmitButtonText&apos;)' fallback='true' selected='true'/>
    <accessor type='Id' value='span(&quot;formSubmitButtonText&quot;)' fallback='true' selected='false'/>
    <accessor type='Text' value='span(&quot;Continue&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//span[@id=&apos;formSubmitButtonText&apos;]&quot;)' fallback='true' selected='false'/>
    <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Continue&quot;]&apos;)' fallback='true' selected='false'/>
    <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/main/section/div/div/div/div/div/form/div[4]/button/span&apos;)' fallback='true' selected='false'/>
    <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;formSubmitButtonText&apos;)&quot;)' fallback='true' selected='false'/>
-   <accessor type='JQuery' value='byJQuery(&apos;#formSubmitButtonText&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;formSubmitButtonText&quot;]&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
 <step action='setValue' value='"Password!123456"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='true' sequence='0'>
