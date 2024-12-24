@@ -10,8 +10,14 @@
 </step>
 <step action='retrieve' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='unknown' value='response.body.results[0].duns' fallback='true' selected='true'/>
+   <accessor type='unknown' value='dun' fallback='true' selected='true'/>
    <accessor type='unknown' value='' fallback='false' selected='false'/>
+   <accessor type='unknown' value='response.body.results[0].duns' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='log' value='dun' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
 </step>
 <step action='setBasicCredentials' value='"awesomebeta"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
