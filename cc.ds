@@ -16,7 +16,7 @@
    <accessor type='unknown' value='dun' fallback='true' selected='false'/>
 </dialect>
 </step>
-<step action='log' value='dun' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+<step action='log' value='info' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
