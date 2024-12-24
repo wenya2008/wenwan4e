@@ -41,23 +41,13 @@
    <accessor type='JQuery' value='byJQuery(&apos;#formSubmitButtonText&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"Fbdjxisdr@dexsptesting.s-dex.com.cn"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+<step action='setValue' value='"Mtughbax@dexsptesting.s-dex.com.cn"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='unknown' value='byXPath(&apos;//*[@id=&quot;username&quot;]&apos;)' fallback='true' selected='true'/>
    <accessor type='unknown' value='' fallback='false' selected='false'/>
    <accessor type='unknown' value='byJQuery(&apos;div.login__signIn a&apos;)' fallback='true' selected='false'/>
    <accessor type='unknown' value='byXPath(&apos;//[@id=&quot;username&quot;]&apos;)' fallback='true' selected='false'/>
    <accessor type='unknown' value='byXPath(&apos;//[@id=&quot;username&quot;]&apos;)' fallback='true' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='unknown' value='byXPath(&apos;//*[@name=&quot;action&quot;]&apos;)' fallback='true' selected='true'/>
-   <accessor type='unknown' value='' fallback='false' selected='false'/>
-   <accessor type='unknown' value='byXPath(&apos;//[@id=&quot;username&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='unknown' value='byXPath(&apos;//[@id=&quot;action&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='unknown' value='byXPath(&apos;//[@name=&quot;action&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='unknown' value='byXPath(&apos;//[@name=&quot;action&quot;]&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
 <step action='setValue' value='"Password!123456"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='true' sequence='0'>
