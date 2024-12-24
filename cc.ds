@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase   name= 'null' description= 'null' author= 'null' version= 'null'>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<fallback useFallback='true'/>
+<shadowDOM useShadowDOM='true'/>
+<step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Parent' value='submit(2, _in(div(&quot;uc-center-container&quot;)))' fallback='true' selected='true'/>
+   <accessor type='Parent' value='submit(2, _in(div({&apos;id&apos;:&apos;uc-center-container&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='submit(&quot;dGoUTU sc-dcJsrY[1]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='submit(&quot;Accept All Cookies&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='submit({&apos;data-testid&apos;:&apos;uc-accept-all-button&apos;})' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;formSubmitButtonText&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='Id' value='span(&quot;formSubmitButtonText&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='span(&quot;Continue&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//span[@id=&apos;formSubmitButtonText&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Continue&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/main/section/div/div/div/div/div/form/div[4]/button/span&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;formSubmitButtonText&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#formSubmitButtonText&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Password!123456"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;password&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='password(&quot;c0c6dd439 c197394c7 input&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;password&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='password(&quot;password&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='password(&quot;password&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;password&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;input c0c6dd439 c197394c7&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/main/section/div/div/div/form/div/div/div[2]/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;password&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;cb0378539 c8ae292a8&quot;] &gt; div[class=&quot;ccf09c273&quot;] &gt; div[class=&quot;input-wrapper _input-wrapper&quot;] &gt; div[class=&quot;c784d8eee c37b812fc password c5574cf06 c704a8499&quot;] &gt; input[class=&quot;input c0c6dd439 c197394c7&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#password&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;password&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;formSubmitButtonText&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='Id' value='span(&quot;formSubmitButtonText&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='span(&quot;Log in&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//span[@id=&apos;formSubmitButtonText&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Log in&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/main/section/div/div/div/form/div[2]/button/span&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;formSubmitButtonText&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#formSubmitButtonText&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"ELECTRAP"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='textbox(&quot;headerSearch__input submitInput__input&quot;)' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/header/div[2]/div[2]/div[1]/form/div[1]/input&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;headerSearch__input submitInput__input&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/header/div[2]/div[2]/div/form/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage app--componentBelowHeader&apos;]/div[@class=&apos;fluidPage__wrapper page__wrapper&apos;]/header[@class=&apos;header header--hasImageBackground scrollSection&apos;]/div[@class=&apos;header__topBar header__topBar--withLogin header__topBar--xcl&apos;]/div[@class=&apos;header__iconsWrapper&apos;]/div[@class=&apos;headerSearch&apos;]/form[@class=&apos;headerSearch__form&apos;]/div[@class=&apos;submitInput submitInput--small headerSearch__inputWrapper&apos;]/input[@class=&apos;headerSearch__input submitInput__input&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='textbox({&apos;size&apos;:&apos;6&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;header__iconsWrapper&quot;] &gt; div[class=&quot;headerSearch&quot;] &gt; form[class=&quot;headerSearch__form&quot;] &gt; div[class=&quot;submitInput submitInput--small headerSearch__inputWrapper&quot;] &gt; input[class=&quot;headerSearch__input submitInput__input&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.headerSearch__inputWrapper &gt; .headerSearch__input.submitInput__input&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='submit(&quot;submitInput__applyButton submitInput__applyButton--search&quot;)' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/header/div[2]/div[2]/div[1]/form/div[1]/button[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;submitInput__applyButton submitInput__applyButton--search&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/header/div[2]/div[2]/div/form/div/button[2]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage app--componentBelowHeader&apos;]/div[@class=&apos;fluidPage__wrapper page__wrapper&apos;]/header[@class=&apos;header header--hasImageBackground scrollSection&apos;]/div[@class=&apos;header__topBar header__topBar--withLogin header__topBar--xcl&apos;]/div[@class=&apos;header__iconsWrapper&apos;]/div[@class=&apos;headerSearch&apos;]/form[@class=&apos;headerSearch__form&apos;]/div[@class=&apos;submitInput submitInput--small headerSearch__inputWrapper&apos;]/button[@class=&apos;submitInput__applyButton submitInput__applyButton--search&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;header__iconsWrapper&quot;] &gt; div[class=&quot;headerSearch&quot;] &gt; form[class=&quot;headerSearch__form&quot;] &gt; div[class=&quot;submitInput submitInput--small headerSearch__inputWrapper&quot;] &gt; button[class=&quot;submitInput__applyButton submitInput__applyButton--search&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.header__iconsWrapper &gt; .headerSearch &gt; .headerSearch__form &gt; .submitInput.submitInput--small.headerSearch__inputWrapper &gt; .submitInput__applyButton.submitInput__applyButton--search&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='submit(&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;)' fallback='true' selected='true'/>
+   <accessor type='Text' value='submit(&quot;Continue&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/div/div[4]/button[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Continue &quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[4]/button[2]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage customerDetails&apos;]/div[@class=&apos;page__wrapper fluidPage__wrapper customerDetails__wrapper&apos;]/div[@class=&apos;customerDetailsPage&apos;]/div[@class=&apos;customerDetailsPage__submitButtons&apos;]/button[@class=&apos;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;page fluidPage customerDetails&quot;] &gt; div[class=&quot;page__wrapper fluidPage__wrapper customerDetails__wrapper&quot;] &gt; div[class=&quot;customerDetailsPage&quot;] &gt; div[class=&quot;customerDetailsPage__submitButtons&quot;] &gt; button[class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.page.fluidPage.customerDetails &gt; .page__wrapper.fluidPage__wrapper.customerDetails__wrapper &gt; .customerDetailsPage &gt; .customerDetailsPage__submitButtons &gt; .button.button--hero.button--icon.button--iconArrowRight.button--iconRight.checkout__checkoutButton.checkout__checkoutButton&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/payment.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='setValue' value='"4111 1111 1111 1111"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;pan&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;card_number&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='telephonebox(&quot;pan&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='telephonebox(&quot;card_number&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;pan&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;pan&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='telephonebox({&apos;type&apos;:&apos;tel&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#pan&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;card_number&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"test us"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;cardOwner&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='textbox(&quot;form__element&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;name&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='textbox(&quot;cardOwner&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='textbox(&quot;name&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;cardOwner&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;form__element&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[2]/div/div[3]/div/label/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;cardOwner&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='textbox({&apos;placeholder&apos;:&apos;*name on credit card&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;commerceEcbePaymentForm__formColumn&quot;] &gt; div[class=&quot;&quot;] &gt; label[class=&quot;form__labelUp&quot;] &gt; input[class=&quot;form__element&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#cardOwner&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;name&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;date&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='monthbox(&quot;form__element&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;date&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='monthbox(&quot;date&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='monthbox(&quot;date&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;date&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[2]/div/div[4]/div/label/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;date&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='monthbox({&apos;type&apos;:&apos;month&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;commerceEcbePaymentForm__formColumn--twoColumns&quot;] &gt; div[class=&quot;&quot;] &gt; label[class=&quot;form__labelUp&quot;] &gt; input[class=&quot;form__element&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#date&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;date&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;date&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='monthbox(&quot;form__element&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;date&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='monthbox(&quot;date&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='monthbox(&quot;date&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;date&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[2]/div/div[4]/div/label/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;date&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='monthbox({&apos;type&apos;:&apos;month&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;commerceEcbePaymentForm__formColumn--twoColumns&quot;] &gt; div[class=&quot;&quot;] &gt; label[class=&quot;form__labelUp&quot;] &gt; input[class=&quot;form__element&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#date&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;date&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"123"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;cvv&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;cvc&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='telephonebox(&quot;cvv&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='telephonebox(&quot;cvc&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;cvv&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;cvv&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='telephonebox({&apos;type&apos;:&apos;tel&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#cvv&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;cvc&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='submit(&quot;button button--hero button--icon button--iconArrowRight button--iconRight paymentPage__checkoutButton paymentPage__checkoutButton&quot;)' fallback='true' selected='true'/>
+   <accessor type='Text' value='submit(&quot;Continue&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/div/div[4]/button[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight paymentPage__checkoutButton paymentPage__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Continue &quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[4]/button[2]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage payment&apos;]/div[@class=&apos;page__wrapper fluidPage__wrapper payment__wrapper&apos;]/div[@class=&apos;paymentPage&apos;]/div[@class=&apos;paymentPage__submitButtons&apos;]/button[@class=&apos;button button--hero button--icon button--iconArrowRight button--iconRight paymentPage__checkoutButton paymentPage__checkoutButton&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='submit({&apos;data-ste-element&apos;:&apos;conversion_main&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;page fluidPage payment&quot;] &gt; div[class=&quot;page__wrapper fluidPage__wrapper payment__wrapper&quot;] &gt; div[class=&quot;paymentPage&quot;] &gt; div[class=&quot;paymentPage__submitButtons&quot;] &gt; button[class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight paymentPage__checkoutButton paymentPage__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.page.fluidPage.payment &gt; .page__wrapper.fluidPage__wrapper.payment__wrapper &gt; .paymentPage &gt; .paymentPage__submitButtons &gt; .button.button--hero.button--icon.button--iconArrowRight.button--iconRight.paymentPage__checkoutButton.paymentPage__checkoutButton&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/order-review.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;acceptTerms&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;acceptTerms&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='checkbox(&quot;acceptTerms&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='checkbox(&quot;acceptTerms&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;acceptTerms&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[3]/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;acceptTerms&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='checkbox({&apos;type&apos;:&apos;checkbox&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#acceptTerms&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;acceptTerms&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;acceptStatement&quot;]&apos;)' fallback='true' selected='true'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;acceptStatement&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Id' value='checkbox(&quot;acceptStatement&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='checkbox(&quot;acceptStatement&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//input[@id=&apos;acceptStatement&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[3]/div[2]/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;acceptStatement&apos;)&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#acceptStatement&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;acceptStatement&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='div(&quot;orderConfirmationPage__submitButtons&quot;)' fallback='true' selected='true'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/div/div[5]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;orderConfirmationPage__submitButtons&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[5]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage orderConfirmaton&apos;]/div[@class=&apos;page__wrapper fluidPage__wrapper orderReview__wrapper&apos;]/div[@class=&apos;orderConfirmationPage&apos;]/div[@class=&apos;orderConfirmationPage__submitButtons&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;app app--xcl&quot;] &gt; div[class=&quot;page fluidPage orderConfirmaton&quot;] &gt; div[class=&quot;page__wrapper fluidPage__wrapper orderReview__wrapper&quot;] &gt; div[class=&quot;orderConfirmationPage&quot;] &gt; div[class=&quot;orderConfirmationPage__submitButtons&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.app.app--xcl &gt; .page.fluidPage.orderConfirmaton &gt; .page__wrapper.fluidPage__wrapper.orderReview__wrapper &gt; .orderConfirmationPage &gt; .orderConfirmationPage__submitButtons&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='button(&quot;button button--primary&quot;)' fallback='true' selected='true'/>
+   <accessor type='Text' value='button(&quot;Check for ECAs&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//form[@id=&apos;adminAssignForm&apos;]/div[2]/div/button&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;button button--primary&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Check for ECAs&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/form/div[2]/div/button&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;adminAssignForm&apos;)/div[@class=&apos;commerceAdminAssignForm commerceAdminAssignForm__formBody commerceAdminAssignForm__formBody--ratio&apos;]/div[@class=&apos;commerceAdminAssignForm__userBody&apos;]/button[@class=&apos;button button--primary&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='button({&apos;type&apos;:&apos;button&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;adminAssignmentPage&quot;] &gt; form[class=&quot;commerceAdminAssignForm__formWrapper&quot;] &gt; div[class=&quot;commerceAdminAssignForm commerceAdminAssignForm__formBody commerceAdminAssignForm__formBody--ratio&quot;] &gt; div[class=&quot;commerceAdminAssignForm__userBody&quot;] &gt; button[class=&quot;button button--primary&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#adminAssignForm &gt; .commerceAdminAssignForm.commerceAdminAssignForm__formBody.commerceAdminAssignForm__formBody--ratio &gt; .commerceAdminAssignForm__userBody &gt; .button.button--primary&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='AttrClass' value='submit(&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;)' fallback='true' selected='true'/>
+   <accessor type='Text' value='submit(&quot;Continue&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/div/div[5]/button[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Continue &quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[5]/button[2]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage adminAssignment&apos;]/div[@class=&apos;page__wrapper fluidPage__wrapper adminAssignment__wrapper&apos;]/div[@class=&apos;adminAssignmentPage&apos;]/div[@class=&apos;adminAssignmentPage__submitButtons&apos;]/button[@class=&apos;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;page fluidPage adminAssignment&quot;] &gt; div[class=&quot;page__wrapper fluidPage__wrapper adminAssignment__wrapper&quot;] &gt; div[class=&quot;adminAssignmentPage&quot;] &gt; div[class=&quot;adminAssignmentPage__submitButtons&quot;] &gt; button[class=&quot;button button--hero button--icon button--iconArrowRight button--iconRight checkout__checkoutButton checkout__checkoutButton&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;.page.fluidPage.adminAssignment &gt; .page__wrapper.fluidPage__wrapper.adminAssignment__wrapper &gt; .adminAssignmentPage &gt; .adminAssignmentPage__submitButtons &gt; .button.button--hero.button--icon.button--iconArrowRight.button--iconRight.checkout__checkoutButton.checkout__checkoutButton&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://stage.xcelerator.siemens.com/global/en/order-submission.html?id=1Os9V000000TWZBSA4"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+</testcase>
