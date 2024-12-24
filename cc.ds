@@ -241,17 +241,6 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='AttrClass' value='div(&quot;orderConfirmationPage__submitButtons&quot;)' fallback='true' selected='true'/>
-   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;app&apos;]/div/div/div/div/div[5]&quot;)' fallback='true' selected='false'/>
-   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;orderConfirmationPage__submitButtons&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div/div/div[5]&apos;)' fallback='true' selected='false'/>
-   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;app&apos;)/div[@class=&apos;app app--xcl&apos;]/div[@class=&apos;page fluidPage orderConfirmaton&apos;]/div[@class=&apos;page__wrapper fluidPage__wrapper orderReview__wrapper&apos;]/div[@class=&apos;orderConfirmationPage&apos;]/div[@class=&apos;orderConfirmationPage__submitButtons&apos;]&quot;)' fallback='true' selected='false'/>
-   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;app app--xcl&quot;] &gt; div[class=&quot;page fluidPage orderConfirmaton&quot;] &gt; div[class=&quot;page__wrapper fluidPage__wrapper orderReview__wrapper&quot;] &gt; div[class=&quot;orderConfirmationPage&quot;] &gt; div[class=&quot;orderConfirmationPage__submitButtons&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='JQuery' value='byJQuery(&apos;.app.app--xcl &gt; .page.fluidPage.orderConfirmaton &gt; .page__wrapper.fluidPage__wrapper.orderReview__wrapper &gt; .orderConfirmationPage &gt; .orderConfirmationPage__submitButtons&apos;)' fallback='true' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
-  <dialect type='sahi'>
    <accessor type='AttrClass' value='button(&quot;button button--primary&quot;)' fallback='true' selected='true'/>
    <accessor type='Text' value='button(&quot;Check for ECAs&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//form[@id=&apos;adminAssignForm&apos;]/div[2]/div/button&quot;)' fallback='true' selected='false'/>
