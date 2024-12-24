@@ -240,7 +240,6 @@
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='unknown' value='byJQuery(&quot;button.checkout__checkoutButton&quot;)' fallback='true' selected='true'/>
-   <accessor type='unknown' value='' fallback='false' selected='false'/>
    <accessor type='unknown' value='byCss(&quot;button.checkout__checkoutButton&quot;)' fallback='true' selected='false'/>
 </dialect>
 </step>
