@@ -139,6 +139,11 @@
    <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
+<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
 <step action='setValue' value='"test us"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='XPathId' value='byXPath(&apos;//*[@id=&quot;cardOwner&quot;]&apos;)' fallback='true' selected='true'/>
@@ -156,7 +161,7 @@
    <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;name&quot;]&apos;)' fallback='true' selected='false'/>
 </dialect>
 </step>
-<step action='selectFrame' value='"https://secure.ixopay.com/iframes/cvv.html"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
+<step action='selectFrame' value='src=&quot;https://secure.ixopay.com/iframes/cvv.html&quot;' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' isHidden='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='unknown' value='' fallback='false' selected='true'/>
 </dialect>
